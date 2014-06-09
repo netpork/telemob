@@ -1,0 +1,25 @@
+{
+  "name": "telemob",
+  "version": "0.0.0",
+  "homepage": "https://github.com/netpork/telemob",
+  "authors": [
+    "netpork <netpork@gmail.com>"
+  ],
+  "description": "telemedicina mobile",
+  "main": "index.html",
+  "keywords": [
+    "phonegap"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.17"
+  }
+}

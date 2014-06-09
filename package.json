@@ -1,0 +1,38 @@
+{
+  "name": "telemob",
+  "version": "0.0.0",
+  "description": "telemedicina mobile",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netpork/telemob.git"
+  },
+  "keywords": [
+    "telemedicina",
+    "mobile",
+    "phonegap",
+    "angularjs"
+  ],
+  "author": "dejan todorovic",
+  "license": "GPLV3",
+  "bugs": {
+    "url": "https://github.com/netpork/telemob/issues"
+  },
+  "homepage": "https://github.com/netpork/telemob",
+  "devDependencies": {
+    "gulp-util": "^2.2.16",
+    "gulp": "^3.7.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-connect": "^2.0.5",
+    "gulp-bower-src": "0.0.1",
+    "gulp-filter": "^0.4.1",
+    "gulp-debug": "^0.3.0",
+    "gulp-inject": "^0.4.1",
+    "event-stream": "^3.1.5",
+    "gulp-watch": "^0.6.5"
+  }
+}
