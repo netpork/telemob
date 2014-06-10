@@ -38,7 +38,7 @@
 			// .pipe(uglify())
 			.pipe(gulp.dest('./dist'));
 
-		gulp.src('./index.html')
+		gulp.src('./assets/html/index.html')
 			.pipe(inject(es.merge(appStream, vendorStream)))
 			.pipe(gulp.dest('./dist'));
 	});
