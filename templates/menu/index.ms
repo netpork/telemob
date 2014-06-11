@@ -1,0 +1,3 @@
+<section>
+	template loaded
+</section>

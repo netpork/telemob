@@ -1,0 +1,37 @@
+@menuBackgroundColor: #e5e9e8;
+
+// fonts
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Light.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Source Sans";
+  src: url("../font/SourceSansPro-Semibold.otf");
+  font-weight: 600;
+}
+
+.radius(@radius) {
+	border-radius: @radius;
+}
+
+html, body, #main {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: @menuBackgroundColor;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-user-select: none;
+	.radius(5px);
+}
+
+.card-shadow {
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
